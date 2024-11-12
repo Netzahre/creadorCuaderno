@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/images"
     tools:context=".MainActivity">
 
     <Button
@@ -12,8 +13,11 @@
         android:layout_width="222dp"
         android:layout_height="63dp"
         android:layout_marginBottom="78dp"
+        android:backgroundTint="#E2D6B8"
         android:text="Crear Cuaderno"
+        android:textColor="@color/black"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -31,7 +35,8 @@
         <Spinner
             android:id="@+id/grosorH"
             android:layout_width="351dp"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:background="#E4D8B9" />
 
         <Space
             android:layout_width="match_parent"
@@ -40,7 +45,8 @@
         <Spinner
             android:id="@+id/colorH"
             android:layout_width="351dp"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:background="#E4D8B9" />
 
         <Space
             android:layout_width="match_parent"
@@ -49,7 +55,8 @@
         <Spinner
             android:id="@+id/grosorV"
             android:layout_width="351dp"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:background="#E4D8B9" />
 
         <Space
             android:layout_width="match_parent"
@@ -58,6 +65,7 @@
         <Spinner
             android:id="@+id/colorV"
             android:layout_width="351dp"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:background="#E4D8B9" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
