@@ -9,12 +9,12 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/crear"
         android:layout_width="222dp"
         android:layout_height="63dp"
         android:layout_marginBottom="78dp"
         android:backgroundTint="#E2D6B8"
-        android:text="Crear Cuaderno"
+        android:text="Dibujar"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -24,13 +24,22 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="420dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="129dp"
+        android:background="#E4D8B9"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="bottom|center"
+            android:text="Grosor lineas horizontales"
+            android:textAlignment="center" />
 
         <Spinner
             android:id="@+id/grosorH"
@@ -38,9 +47,13 @@
             android:layout_height="50dp"
             android:background="#E4D8B9" />
 
-        <Space
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="55dp"
+            android:gravity="bottom|center"
+            android:text="Color lineas horizontales"
+            android:textAlignment="center" />
 
         <Spinner
             android:id="@+id/colorH"
@@ -48,9 +61,13 @@
             android:layout_height="50dp"
             android:background="#E4D8B9" />
 
-        <Space
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="55dp"
+            android:gravity="bottom|center"
+            android:text="Grosor lineas verticales"
+            android:textAlignment="center" />
 
         <Spinner
             android:id="@+id/grosorV"
@@ -58,9 +75,13 @@
             android:layout_height="50dp"
             android:background="#E4D8B9" />
 
-        <Space
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="55dp"
+            android:gravity="bottom|center"
+            android:text="Color lineas verticales"
+            android:textAlignment="center" />
 
         <Spinner
             android:id="@+id/colorV"
