@@ -55,15 +55,3 @@ This project is a standard Android application built with Gradle.
         ```bash
         ./gradlew clean
         ```
-
-## Screenshots
-
-*(Optional: You can add screenshots of the `MainActivity` and `hoja` activity here to give users a visual preview of the application.)*
-
-**Example:**
-
-*MainActivity - Customization Screen:*
-`[Insert Screenshot of MainActivity Here]`
-
-*hoja Activity - Notebook Page View:*
-`[Insert Screenshot of hoja Activity Here]`
